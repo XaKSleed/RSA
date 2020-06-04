@@ -1,0 +1,16 @@
+RSA (RivestâShamirâAdleman) is one of the first public-key cryptosystems and is widely used for secure data transmission.
+ In such a cryptosystem, the encryption key is public and distinct from the decryption key which is kept secret (private). 
+In RSA, this asymmetry is based on the practical difficulty of factoring the product of two large prime numbers, the "factoring problem". 
+The acronym RSA is the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who publicly described the algorithm 
+in 1977. Clifford Cocks, an English mathematician working for the British intelligence agency Government Communications Headquarters (GCHQ),
+ had developed an equivalent system in 1973, which was not declassified until 1997.[1]
+
+A user of RSA creates and then publishes a public key based on two large prime numbers, along with an auxiliary value.
+ The prime numbers must be kept secret. Anyone can use the public key to encrypt a message, but only someone with knowledge
+ of the prime numbers can decode the message.[2] Breaking RSA encryption is known as the RSA problem. Whether it is as difficult
+ as the factoring problem is an open question. There are no published methods to defeat the system if a large enough key is used.
+
+RSA is a relatively slow algorithm, and because of this, it is less commonly used to directly encrypt user data. More often, 
+RSA passes encrypted shared keys for symmetric key cryptography which in turn can perform bulk encryption-decryption operations 
+at much higher speed.
+f64f83544194231bc659bbf15759ca58b31711a709d577b2ea249f156fbf315a
